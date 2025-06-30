@@ -29,14 +29,24 @@
         list-style-type: square;
         padding-left: 20px;
       }
-      .card ul li a {
-        color: #ff6f61;
-        font-weight: bold;
-        text-decoration: none;
+      .card ul li {
+        margin: 12px 0;
+        font-size: 1.05em;
       }
-      .card ul li a:hover {
-        color: #e64a42;
-        text-decoration: underline;
+      .pdf-buttons a {
+        display: inline-block;
+        background-color: #ff6f61;
+        color: white;
+        padding: 6px 12px;
+        margin-right: 8px;
+        margin-top: 6px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.2s;
+      }
+      .pdf-buttons a:hover {
+        background-color: #e64a42;
       }
     </style>
   </head>
@@ -48,6 +58,7 @@
       <ul>
         <li><a href="HW3_Problem-1.pdf" target="_blank">R语言编程及爬虫</a></li>
         <li><a href="pdfs/philosophy_core.pdf" target="_blank">哲学核心课程论文</a></li>
+        <li><a href="pdfs/education_core.pdf" target="_blank">教育学核心课程论文</a></li>
       </ul>
     </div>
 
@@ -61,7 +72,18 @@
     <div class="card">
       <h2>📗 其他</h2>
       <ul>
-        <li><a href="pdfs/design_poster.pdf" target="_blank">海报设计</a></li>
+        <li>
+          海报设计：
+          <div class="pdf-buttons">
+            <a href="coma.pdf" target="_blank">作品一</a>
+            <a href="COMA商报.pdf" target="_blank">作品二</a>
+            <a href="Christmas Feast.pdf" target="_blank">作品三</a>
+          </div>
+        </li>
+        <li><a href="pdfs/presentation.pdf" target="_blank">演讲PPT展示</a></li>
+        <li><a href="pdfs/cat3_item3.pdf" target="_blank">Item 3: Collaboration Notes</a></li>
+        <li><a href="pdfs/cat3_item4.pdf" target="_blank">Item 4: Annotated Bibliography</a></li>
+        <li><a href="pdfs/cat3_item5.pdf" target="_blank">Item 5: Final Paper</a></li>
       </ul>
     </div>
   </body>
